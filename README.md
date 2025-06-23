@@ -54,11 +54,22 @@ This `useEffect` hook runs once when the component mounts and handles API loadin
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-> ![Home Screenshot](public/ss1.jpg)
-
+<p align="center">
+  <img src="public/ss1.jpg" alt="Home Screenshot" width="400"/><br/>
+  <em>Landing Page</em>
+</p>
 
 ### 🍲 Recipes Grid
-> ![Recipes Grid Screenshot](public/ss2.jpg)
+<p align="center">
+  <img src="public/ss3.jpg" alt="Recipes Grid Screenshot" width="400"/><br/>
+  <em>Recipe Card Page</em>
+</p>
+
+### 📄 Recipe Details
+<p align="center">
+  <img src="public/ss4.jpg" alt="Recipe Details Screenshot" width="400"/><br/>
+  <em>Recipe Details Page</em>
+</p>
 
 
 ---
