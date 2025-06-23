@@ -14,23 +14,23 @@ const RecipesPage: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
   const [searchTerm, setSearchTerm] = useState<string>('');
 
-  useEffect(() => {
-    const fetchRecipes = async () => {
-      try {
-        setLoading(true);
-        const response = await fetch('https://dummyjson.com/recipes');
-        if (!response.ok) throw new Error('Failed to fetch recipes');
-        const data: RecipeResponse = await response.json();
-        setRecipes(data.recipes);
-      } catch (err) {
-        setError(err instanceof Error ? err.message : 'An error occurred');
-      } finally {
-        setLoading(false);
-      }
-    };
+ useEffect(() => {
+  const fetchRecipes = async () => {
+    try {
+      setLoading(true);
+      const response = await fetch('https://dummyjson.com/recipes?limit=100');
+      if (!response.ok) throw new Error('Failed to fetch recipes');
+      const data: RecipeResponse = await response.json();
+      setRecipes(data.recipes);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'An error occurred');
+    } finally {
+      setLoading(false);
+    }
+  };
 
-    fetchRecipes();
-  }, []);
+  fetchRecipes();
+}, []);
 
   const filteredRecipes = recipes.filter(recipe =>
     recipe.name.toLowerCase().includes(searchTerm.toLowerCase())
