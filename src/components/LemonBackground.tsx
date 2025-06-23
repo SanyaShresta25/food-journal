@@ -1,5 +1,5 @@
 import React from 'react';
-import bgImage from '../assets/lemon-bg2.jpg'; // adjust path as needed
+import bgImage from '../assets/last.jpg'; 
 
 const LemonBackground: React.FC<{ children: React.ReactNode }> = ({ children }) => (
   <div 
