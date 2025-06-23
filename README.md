@@ -56,11 +56,11 @@ This `useEffect` hook runs once when the component mounts and handles API loadin
 
 ### 🏠 Home Page
 > ![Home Screenshot](./screenshots/home.png)
-> *(Recommended size: 1200x600)*
+
 
 ### 🍲 Recipes Grid
 > ![Recipes Grid Screenshot](./screenshots/grid.png)
-> *(Recommended size: 1200x600)*
+
 
 ---
 
