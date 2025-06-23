@@ -7,7 +7,6 @@ A beautifully animated React + Tailwind web app to explore and discover recipes 
 ## 🚀 Features
 
 - 🍽️ Dynamic recipe grid UI with animated cards
-- 🎨 Lemon-inspired gradient background (`LemonBackground`)
 - 🔎 Live search filtering via `SearchBar`
 - ⚡ API data fetched using `useEffect`
 - 💅 TailwindCSS utility-first styling
@@ -55,11 +54,11 @@ This `useEffect` hook runs once when the component mounts and handles API loadin
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-> ![Home Screenshot](./screenshots/home.png)
+> ![Home Screenshot](public/ss1.jpg)
 
 
 ### 🍲 Recipes Grid
-> ![Recipes Grid Screenshot](./screenshots/grid.png)
+> ![Recipes Grid Screenshot](public/ss2.jpg)
 
 
 ---
