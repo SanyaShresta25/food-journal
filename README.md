@@ -1,4 +1,4 @@
-# 🍋 Recipes Explorer
+# 🍋 The Recipe Room
 
 A beautifully animated React + Tailwind web app to explore and discover recipes from a mock API. Featuring a lemony-fresh UI, animated transitions, floating image cards, and a magical search experience.
 
